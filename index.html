@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive Single Page Application simulation">
+    <title>FlowSpace | SPA Simulation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="logo" data-link>FlowSpace<span>.</span></a>
+
+        <nav class="navigation" aria-label="Main navigation">
+            <a href="/" data-link>Home</a>
+            <a href="/about" data-link>About</a>
+            <a href="/services" data-link>Services</a>
+            <a href="/contact" data-link>Contact</a>
+        </nav>
+    </header>
+
+    <main id="app" class="container" tabindex="-1" aria-live="polite">
+        <section class="hero">
+            <p class="eyebrow">SINGLE PAGE APPLICATION</p>
+            <h1>One application.<br><span>Endless possibilities.</span></h1>
+            <p class="hero-text">
+                Explore a modern web experience with smooth navigation,
+                dynamic content, and no unnecessary page reloads.
+            </p>
+            <a href="/services" class="button" data-link>
+                Explore Services →
+            </a>
+        </section>
+
+        <section class="features">
+            <article class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h2>Fast Navigation</h2>
+                <p>Move between sections without reloading the entire page.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h2>Clean Design</h2>
+                <p>Enjoy a responsive interface with polished visual styling.</p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">🔗</div>
+                <h2>Smart Routing</h2>
+                <p>Browser URLs and back and forward buttons stay in sync.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> FlowSpace. Built for Week 5 SPA Task.</p>
+    </footer>
+</body>
+</html>
